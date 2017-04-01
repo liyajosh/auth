@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#118785"
+    tools:context="com.google.firebase.quickstart.auth.first">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:paddingTop="130dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="200sp"
+        android:textColor="@color/tw__solid_white"
+        android:layout_weight="1"
+        android:text="TRAILOO" />
+</LinearLayout>
